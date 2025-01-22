@@ -4,7 +4,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from crud_functions import *
 
-bot = Bot(token='7680362534:AAFxREcENIpGw2eLIBR25rgd7xjTql0mjyQ')
+bot = Bot(token='')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 kb = ReplyKeyboardMarkup(resize_keyboard=True)
